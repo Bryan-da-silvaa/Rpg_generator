@@ -1,12 +1,17 @@
 import './main.scss'
-import Generator from '../../components/generator/generator'
+import Generator, { Generate_btn } from '../../components/generator/generator'
+
+const _object = {
+    classname: "generate-btn",
+    name: "Generate"
+};
 
 function Main () {
     return (
         <div className='generator'>
             <span className='titre'><h1>GÉNÉRER ALÉATOIREMENT DES PERSONNAGE DE <strong>RPG</strong></h1></span>
             <Generator />
-            <button className='generate-btn'>GENERATE</button>
+            <Generate_btn objet={_object}/> 
         </div>
     )
 }

@@ -86,4 +86,10 @@ function Generator (_object) {
     )
 }
 
+export function Generate_btn (_object) {
+    return (
+        <button className={_object.className}>{_object.name}</button>
+    )
+}
+
 export default Generator
