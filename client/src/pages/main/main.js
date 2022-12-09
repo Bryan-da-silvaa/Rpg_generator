@@ -1,9 +1,15 @@
 import './main.scss'
-import Generator, { Generate_btn } from '../../components/generator/generator'
+import Generator, { GenerateBtn } from '../../components/generator/generator'
 
 const _object = {
-    classname: "generate-btn",
-    name: "Generate"
+    generate: {
+        classname: 'btn generate-btn',
+        name: 'Generate'
+    },
+    download: {
+        classname: 'btn download-btn',
+        name: 'Download'
+    }
 };
 
 function Main () {
@@ -11,7 +17,8 @@ function Main () {
         <div className='generator'>
             <span className='titre'><h1>GÉNÉRER ALÉATOIREMENT DES PERSONNAGE DE <strong>RPG</strong></h1></span>
             <Generator />
-            <Generate_btn objet={_object}/> 
+            <GenerateBtn objet={_object.generate}/>
+            <GenerateBtn objet={_object.download}/> 
         </div>
     )
 }

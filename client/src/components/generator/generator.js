@@ -86,9 +86,9 @@ function Generator (_object) {
     )
 }
 
-export function Generate_btn (_object) {
+export function GenerateBtn (props) {
     return (
-        <button className={_object.className}>{_object.name}</button>
+        <button className={props.objet.classname}>{props.objet.name}</button>
     )
 }
 

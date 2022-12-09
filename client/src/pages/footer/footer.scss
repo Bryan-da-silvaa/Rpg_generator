@@ -4,12 +4,12 @@
     --R: 55.9px /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/;
     
     height: 15em;
-    margin-top: 7em;
-    -webkit-mask:
+    margin-top: 2em;
+    mask:
       radial-gradient(var(--R) at left 50% var(--d,top) calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
         calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
       radial-gradient(var(--R) at left 50% var(--d,top) calc(-1*var(--p)),#0000 99%,#000 101%) 
         left 50% var(--d,top) var(--size)/calc(4*var(--size)) 100% repeat-x;
-    background:linear-gradient(90deg,red,blue);  
+    background: var(--blue);  
     border: none;
 }

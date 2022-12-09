@@ -2,15 +2,17 @@
     width: auto;
     height: auto;
     text-align: center;
-    margin-top: 7em;
+    margin-top: 2em;
     padding-bottom: 2em;
     // border: 1px solid var(--blue);
     //background-color: rgba($color: rgb(77, 208, 225), $alpha: 1);
 
     .titre {
+
         h1 {
             padding: 1.2em 0;
             margin: 0;
+
             strong {
                 color: var(--blue)
             }
@@ -44,14 +46,15 @@
                 }
             }
 
-            .info-perso {   
-                
+            .info-perso {
+
                 div {
                     padding: 0.7em;
                     font-size: 1em;
                     text-align: start;
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
+                    
                     &.border-bottom {
                         border-bottom: 1px solid black;
                     }
@@ -60,11 +63,22 @@
         }
     }
 
-    .generate-btn {
+    .btn {
         padding: 1em 3em;
         border-radius: 2em;
+        border: none;
         cursor: pointer;
-        background-color: black;
+        font-style: bold;
+    }
+
+    .generate-btn {
+        background-color: #43A047;
+        color: white;
+        margin-right: 3em;
+    }
+
+    .download-btn {
+        background-color: var(--blue);
         color: white;
     }
 }
