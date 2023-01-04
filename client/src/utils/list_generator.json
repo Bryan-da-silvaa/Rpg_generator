@@ -85,49 +85,6 @@
         }
     },
 
-    "lastname": {
-        "1": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "2": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "3": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "4": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "5": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "6": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "7": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "8": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "9": {
-            "feminin": "",
-            "masculin": ""
-        },
-        "10": {
-            "feminin": "",
-            "masculin": ""
-        }
-    },
-
     "title": {
         "1": {
             "feminin": "La plus forte",

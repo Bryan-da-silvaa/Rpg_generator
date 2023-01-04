@@ -15,7 +15,7 @@ const _object = {
 function Main () {
     return (
         <div className='generator'>
-            <span className='titre'><h1>GÉNÉRER ALÉATOIREMENT DES PERSONNAGE DE <strong>RPG</strong></h1></span>
+            <span className='titre'><h2>GÉNÉRER ALÉATOIREMENT DES PERSONNAGE DE <strong>RPG</strong></h2></span>
             <Generator />
             <GenerateBtn objet={_object.generate}/>
             <GenerateBtn objet={_object.download}/> 

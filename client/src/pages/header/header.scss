@@ -1,27 +1,13 @@
 .header {
     display: flex;
     width: auto;
-    gap: 1em;
-    font-size: 1em;
-
-    --size: 50px;
-    --p: 25px;
-    --R: 55.9px; /*sqrt(var(--size)*var(--size) + var(--p)*var(--p));*/
-    --d: bottom;
-    
-    height: 13em;
-    
-    mask:
-      radial-gradient(var(--R) at left 50% var(--d,top) calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
-        calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
-      radial-gradient(var(--R) at left 50% var(--d,top) calc(-1*var(--p)),#0000 99%,#000 101%) 
-        left 50% var(--d,top) var(--size)/calc(4*var(--size)) 100% repeat-x;
-    background: var(--blue);
-    border: none;
+    font-size: 0.8em;
+    height: 8em;
+    background-color: var(--blue);
     
     h1 {
         margin-left: 1em;
-        margin-top: 1.5em;
+        margin-top: 1em;
         cursor: pointer;
         color: white;
 
