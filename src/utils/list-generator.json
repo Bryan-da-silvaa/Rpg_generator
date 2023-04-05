@@ -1,0 +1,173 @@
+{
+    "avatar" : {
+        "1": {
+            "feminin": "/images/avatar/feminin/hinata.jpg",
+            "masculin": "/images/avatar/masculin/naruto.webp"
+        },
+        "2": {
+            "feminin": "/images/avatar/feminin/sayuri.jpg",
+            "masculin": "/images/avatar/masculin/sasuke.webp"
+        },
+        "3": {
+            "feminin": "/images/avatar/feminin/sakura.webp",
+            "masculin": "/images/avatar/masculin/ichigo.webp"
+        },
+        "4": {
+            "feminin": "/images/avatar/feminin/orihime.webp",
+            "masculin": "/images/avatar/masculin/kozuki.png"
+        },
+        "5": {
+            "feminin": "/images/avatar/feminin/yoruichi.jpg",
+            "masculin": "/images/avatar/masculin/zaraki.webp"
+        },
+        "6": {
+            "feminin": "/images/avatar/feminin/nami.webp",
+            "masculin": "/images/avatar/masculin/sanji.webp"
+        },
+        "7": {
+            "feminin": "/images/avatar/feminin/yamato.jpg",
+            "masculin": "/images/avatar/masculin/zoro.jpeg"
+        },
+        "8": {
+            "feminin": "/images/avatar/feminin/kirche.webp",
+            "masculin": "/images/avatar/masculin/saito.webp"
+        },
+        "9": {
+            "feminin": "/images/avatar/feminin/yuna.webp",
+            "masculin": "/images/avatar/masculin/tidus.jpg"
+        },
+        "10": {
+            "feminin": "/images/avatar/feminin/asuna.jpg",
+            "masculin": "/images/avatar/masculin/kirito.png"
+        }
+    },
+
+    "name": {
+        "1": {
+            "feminin": "Ai",
+            "masculin": "Zeus"
+        },
+        "2": {
+            "feminin": "Kokoro",
+            "masculin": "Hercule"
+        },
+        "3": {
+            "feminin": "Sayuri",
+            "masculin": "Amaterasu"
+        },
+        "4": {
+            "feminin": "Sumee",
+            "masculin": "Susanoo"
+        },
+        "5": {
+            "feminin": "Yume",
+            "masculin": "Kai"
+        },
+        "6": {
+            "feminin": "Sana",
+            "masculin": "Makoto"
+        },
+        "7": {
+            "feminin": "Luna",
+            "masculin": "Yuma"
+        },
+        "8": {
+            "feminin": "Lize",
+            "masculin": "Orochi"
+        },
+        "9": {
+            "feminin": "Sakura",
+            "masculin": "Tensei"
+        },
+        "10": {
+            "feminin": "Athena",
+            "masculin": "Poséidon"
+        }
+    },
+
+    "title": {
+        "1": {
+            "feminin": "La plus forte",
+            "masculin": "Le plus fort"
+        },
+        "2": {
+            "feminin": "La folle",
+            "masculin": "Le fou"
+        },
+        "3": {
+            "feminin": "La charmeuse",
+            "masculin": "Le charmeur"
+        },
+        "4": {
+            "feminin": "La reine",
+            "masculin": "Le roi"
+        },
+        "5": {
+            "feminin": "La princesse",
+            "masculin": "Le prince"
+        },
+        "6": {
+            "feminin": "L'intelligente",
+            "masculin": "L'intelligent"
+        },
+        "7": {
+            "feminin": "La chercheuse",
+            "masculin": "Le chercheur"
+        },
+        "8": {
+            "feminin": "L'arrogante",
+            "masculin": "L'arrogant"
+        },
+        "9": {
+            "feminin": "La serviteuse",
+            "masculin": "Le serviteur"
+        },
+        "10": {
+            "feminin": "La mystérieuse",
+            "masculin": "Le mystérieux"
+        }
+    },
+
+    "race": {
+        "1": "Humain",
+        "2": "Elfe",
+        "3": "Haut Elfe",
+        "4": "Ange",
+        "5": "Demon",
+        "6": "Nain",
+        "7": "Orc"
+    },
+
+    "classe": {
+        "1": "Mage",
+        "2": "Guerrier",
+        "3": "Archer",
+        "4": "Invocateur ",
+        "5": "Paladin",
+        "6": "Mage Noir",
+        "7": "Nécromancien"
+    },
+
+    "resume": {
+        "1": {
+            "feminin": " est une jeune fille originaire du japon, forte, intelligente et curieuse, elle a perdue les souvenirs de son passé suite à un portail la basculant dans un monde obscur et nuisible.<br />Elle part à la recherche de ses souvenirs et de ce monde qui l'entoure en espérant trouvé une reponse à ses questions.",
+            "masculin": " est un jeune homme originaire du district sud de l'académie des chasseurs de hollow, il était premier de sa promotion avant que le monde ne subissent une catastrophe inoubliable.<br />Suite à cela il part à l'aventure pour découvrir les origine de cette catastrophe auprès de 3 de ses amis de l'académie."
+        },
+        "2": {
+            "feminin": " est une fille douce, gentille et élégante qui aime aidé et servir les autres, elle n'hésite pas à secourir les autres même si cela peut parfois la mettre en danger.<br />Un jour elle tomba sur une stèle sacré qui lui confiera des pouvoir qui lui seront utile et cherchera l'origine du pouvoirs de la stèle.",
+            "masculin": " est un homme fort et charismatique qui a tout pour plaire, il est le plus populaire de son école et toute les filles tombe sous son charme sans difficulté.<br />Mais cela ne durera pas puisque un jour en se réveillant il découvrit que son corps avait changé complétement sans en connaitre la raison, à cause de cela sa vie changera à tout jamais."
+        },
+        "3": {
+            "feminin": " est une fille des plus banals qui se fait aimé de tous, elle mena une vie des plus basique et calme, bien que à cause de cela elle trouva ça vie monotone.<br />Jusqu'au jour ou sa vie bascula, elle rencontra un homme du nom de Yuto, devenu amnésique, ensemble ils cherchent le moyen de lui faire retrouver ses souvenirs.",
+            "masculin": " un homme mince, grand et aimé de beaucoup de gens, il avait de nombreux amis avec qui il s'amusait sans cesse, il avait une vie vraiment paisible.<br />Quand tout un coup il oublia entièrement la mémoire, c'est a ce moment la qu'il rencontra une fille qui l'accompagna, ensemble ils cherchent le moyen de retrouver ses souvenirs."
+        },
+        "4": {
+            "feminin": " une déesse agée de 800 ans errant sur les terres de zanarland, elle convoite un trésor ancien et puissant qui donnerait un pouvoir immense à celui le détenant.<br />Elle croisa sur sa route un vieil homme en détresse, c'est alors qu'elle appris que ce vieil homme et le créateur du trésor ancien, ensemble ils partent à la recherche du trésor.",
+            "masculin": " est un homme des plus ordinaire étant parti sur une planète avec sa collègue pour une mission, il rencontra le vaisseau d'un homme évanouie.<br />À ce moment des ennemis débarquent, 2 monstre sortent de l'appareil étrange de l'homme évanouie combattant à ses côtés pour vaincre les ennemis."
+        },
+        "5": {
+            "feminin": " possède le pouvoir de voir l'avenir des gens qu'elle touche, elle va devoir sauver le destin d'une ville entière destiner à être détruite par un astéroide.<br />Pour l'aider son ami sera la pour convaincre la ville entière de fuir avant la catastrophe, chose qui ne sera pas aisée.",
+            "masculin": " est agé de 16 ans et fait partie d'une école de super hero, en classe H-1 il s'entraine avec tout ses camarades de classe pour devenir plus fort et le numéro 1 de sa classe.<br />Mais le calme n'est pas présent longtemps puisque un rassemblement de vilain se forme pour conquérir le monde."
+        }
+    }
+}

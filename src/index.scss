@@ -1,0 +1,136 @@
+:root {
+  --blue: #039BE5;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media all and (max-width: 1500px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .App {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+  }
+
+  .Main {
+    height: 20vh;
+    padding-top: 5em;
+
+    .container-title {
+      min-width: 70%;
+
+      h1 {
+        width: 100%;
+        font-size: 4em;
+      }
+
+      p {
+        width: 60%;
+      }
+
+      .generate-btn {
+        display: none;
+      }
+    }
+  }
+
+  .container-card {
+    margin: 8em auto 0 auto;
+    min-width: 10em;
+
+    
+  }
+  
+  .Generator {
+
+    .generate-btn {
+      max-width: 40em;
+      min-width: 10em;
+      margin: 2em auto;
+
+      button {
+        margin: 0 auto;
+        display: block;
+        font-size: 1.2em;
+        border-radius: 4em;
+        padding: 1.2em 5em;
+        background-color: var(--blue);
+        color: white;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--blue);
+            opacity: 0.6;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media all and (min-width: 1500px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .App {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Main {
+    height: 100vh;
+    padding-top: 30em;
+
+    .container-title {
+      min-width: 50%;
+
+      h1 {
+        font-size: 5em;
+      }
+
+      p {
+        width: 50%;
+      }
+
+      .generate-btn {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+  }
+
+  .container-card {
+    margin: 25em auto 0 auto;
+    min-width: 30em;
+  }
+
+  .Generator {
+
+    .generate-btn {
+      display: none;
+    }
+  }
+}

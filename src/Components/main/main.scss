@@ -1,0 +1,47 @@
+.Main {
+    background-color: white;
+    color: black;
+    width: 100%;
+
+    .container-title {
+        margin: 0 auto;
+        width: 75%;
+
+        h1 {
+            text-align: center;
+            // border: 2px solid red;
+            margin: 0;
+            margin-bottom: 0.2em;
+            .title-color {
+                color: var(--blue);
+            }
+        }
+
+        p {
+            margin: 0 auto;
+            font-size: 1.2em;
+            text-align: center;
+            // border: 2px solid blue;
+        }
+
+        .generate-btn {
+            margin: 2em auto;
+            width: auto;
+
+            button {
+                font-size: 1.2em;
+                border-radius: 4em;
+                padding: 1.2em 5em;
+                background-color: var(--blue);
+                color: white;
+                border: none;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: var(--blue);
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
